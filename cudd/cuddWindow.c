@@ -379,7 +379,7 @@ ddPermuteWindow3(
 	size = sizeNew;
     }
 
-    /* Now take the shortest route to the best permuytation.
+    /* Now take the shortest route to the best permutation.
     ** The initial permutation is ACB.
     */
     switch(best) {
