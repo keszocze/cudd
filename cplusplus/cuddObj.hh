@@ -581,6 +581,7 @@ public:
     bool GarbageCollectionEnabled(void) const;
     void EnableGarbageCollection(void) const;
     void DisableGarbageCollection(void) const;
+    void CollectGarbage(void);
     bool DeadAreCounted(void) const;
     void TurnOnCountDead(void) const;
     void TurnOffCountDead(void) const;
