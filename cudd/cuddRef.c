@@ -161,6 +161,11 @@ Cudd_RecursiveDeref(
 
 } /* end of Cudd_RecursiveDeref */
 
+void Cudd_CollectGarbage(DdManager *table)
+{
+    cuddGarbageCollect(table, 1);
+}
+
 
 /**
   @brief Decreases the reference count of %BDD node n.

@@ -2250,6 +2250,11 @@ Cudd::DisableGarbageCollection() const
 
 } // Cudd::DisableGarbageCollection
 
+void Cudd::CollectGarbage(void)
+{
+    Cudd_CollectGarbage(p->manager);
+}
+
 
 bool
 Cudd::DeadAreCounted() const
